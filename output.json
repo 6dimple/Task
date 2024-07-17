@@ -1,0 +1,25 @@
+{
+    "title": "Unknown Title",
+    "author": "Unknown Author",
+    "content": [
+        "Task Description  \nYou are required to develop a Python application that reads a PDF file, extracts structured data \nfrom it, and converts this data into a JSON format. The task should be implemented following \nthe Pydantic model for data validation and serialization.  \nRequirements  \n1. PDF Reading:  Implement functionality to read a PDF file.  \n2. Data Extraction:  Extract structured data from the PDF. This could involve tables, text \n,images, blocks, or any relevant information.  \n3. Data Validation and Serialization:  Use Pydantic models to define the schema for the \nextracted data and serialize it to JSON format.  \n4. Output: The final output should be a JSON file containing the structured data extracted \nfrom the PDF.  \nExpectations  \n• Code Quality:  Ensure your code is clean, well -documented, and follows Python best \npractices.  \n• Modular Design:  Your solution should be modular, with separate functions or classes \nfor reading the PDF, extracting data, and converting data to JSON.  \n• Error Handling:  Implement appropriate error handling to manage different types of \nerrors that may occur during PDF reading, data extraction, or JSON serialization.  \nSubmission  \n• Provide your source code in a single Python file or a GitHub repository.  \n• Include a README file explaining your approach, how to run the code, and any \ndependencies required.  \n• Provide example output for a sample PDF file.  \nEvaluation Criteria  \n• Correctness: The solution correctly reads the PDF, extracts data, and converts it to the \nspecified JSON format.  \n• Code Quality: The code is clean, well -organized, and follows best practices.  \n• Use of Pydantic: Proper usage of Pydantic models for data validation and serialization.  \n• Error Handling: Robust error handling and meaningful error messages.  \n "
+    ],
+    "tables": [
+        {
+            "headers": [
+                "Column1",
+                "Column2"
+            ],
+            "rows": [
+                [
+                    "Value1",
+                    "Value2"
+                ],
+                [
+                    "Value3",
+                    "Value4"
+                ]
+            ]
+        }
+    ]
+}
